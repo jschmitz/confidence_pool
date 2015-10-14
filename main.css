@@ -1,0 +1,69 @@
+.color-background { color: #202020 }
+
+.color-primary-0 { color: #DDDC3E }	/* Main Primary color */
+.color-primary-1 { color: #FFFE92 }
+.color-primary-2 { color: #F8F765 }
+.color-primary-3 { color: #BEBD1C }
+.color-primary-4 { color: #979608 }
+
+.color-secondary-1-0 { color: #9FCF3A }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #D2F38B }
+.color-secondary-1-2 { color: #BCE85F }
+.color-secondary-1-3 { color: #81B21B }
+.color-secondary-1-4 { color: #628D07 }
+
+.color-secondary-2-0 { color: #DDC13E }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #FFEC92 }
+.color-secondary-2-2 { color: #F8DE65 }
+.color-secondary-2-3 { color: #BEA11C }
+.color-secondary-2-4 { color: #977E08 }
+
+body {
+  background-color: #202020;
+}
+
+h1 {
+  color: #DDDC3E;
+  padding: 10px;
+}
+
+h2 {
+  padding: 10px;
+}
+
+.something > .table > thead > tr > th {
+  border-top: none;
+  border-bottom: 2px solid green;
+  color: #628D07;
+}
+
+.something > .table > tbody > tr > td {
+  border-top: none;
+  color: #628D07;
+}
+
+.something {
+  background-color: #F8F765;
+  padding: 10px 0px 10px 0px;
+}
+
+.else {
+  background-color: #202020;
+  padding: 10px 0px 10px 0px;
+}
+
+.else > .table > thead > tr > th {
+  border-top: none;
+  border-bottom: 2px solid green;
+  color: #DDDC3E;
+}
+
+.else > .table > tbody > tr > td {
+  border-top: none;
+  color: #DDDC3E;
+}
+
+.else > .table > tbody > tr > td.incorrect {
+  color: red;
+  text-decoration: line-through;
+}
